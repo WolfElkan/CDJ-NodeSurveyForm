@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<title>Dojo Survey Index</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<div id="survey">
+			<form name="newuser" action="/process" method="POST">
+				<table>
+					<tr>
+						<td>Your Name:</td>
+						<td>
+							<input type="text" name="name">
+						</td>
+					</tr>
+					<tr>
+						<td>Dojo Location:</td>
+						<td>
+							<select name="location">
+								<option value="sea">Seattle</option>
+								<option value="svl">Silicon Valley</option>
+								<option value="lax">Los Angeles</option>
+								<option value="dal">Dallas</option>
+								<option value="wdc">Washington D.C.</option>
+								<option value="chi">Chicago</option>
+							</select>
+						</td>
+					</tr>
+					<tr>
+						<td>Favorite Language:</td>
+						<td>
+							<select name="language">
+								<option value="Python">Python</option>
+								<option value="Node">Node</option>
+								<option value="Ruby">Ruby</option>
+								<option value="Lamp">Lamp</option>
+								<option value="Swift">Swift</option>
+								<option value="Chicken">Chicken</option>
+							</select>
+						</td>
+					</tr>
+				</table>
+				<span id="commenthead">Comment (optional):</span>
+				<textarea name="comment" rows="3" cols="40"></textarea>
+				<center><input type="submit" value="Submit"></center>
+			</form>
+		</div>
+	</body>
+</html>

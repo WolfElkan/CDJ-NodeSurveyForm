@@ -1,0 +1,18 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+#survey{
+	border: solid black 1px;
+	display: inline-block;
+	padding: 10px;
+}
+
+#commenthead{
+	display: block;
+}
+
+textarea{
+	display: block;
+}
